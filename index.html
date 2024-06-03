@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- header -->
+   <header class="header">
+    <a href="#" class="logo">
+        <img src="logo.png" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contacts</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blog</a>
+
+    </nav>
+    <div class="icons">
+       <div class="fas fa-search" id="search-btn"></div>
+       <div class="fas fa-shopping-cart" id="cart-btn"></div>
+       <div class="fas fa-bars" id="menu-btn"></div>
+
+
+    </div>
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times">
+
+            </span>
+            <img src="1.webp" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times">
+
+            </span>
+            <img src="2.jpg" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$20.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times">
+
+            </span>
+            <img src="3.jpg" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$16.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times">
+
+            </span>
+            <img src="4.jpg" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$18.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Checkout now</a>
+    </div>
+   </header>
+   
+   
+   <!-- home Section start -->
+   <section class="home" id="home">
+    <div class="content">
+        <h3>best breakfast in the morning</h3>
+        <p>at breakfast like a king, lunch like a prince, and dinner like a pauper.” This well-known saying emphasizes the importance of a substantial breakfast, suggesting that it should be the most significant meal of the day to fuel the body and mind for the day ahead.</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+   </section>
+   <!-- About section start -->
+   <section class="about" id="about">
+        <h1 class="heading"><span>about</span>us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="back.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>What makes our food special?</h3>
+                <p>Indian food has gained acceptance in recent times in other parts of the world, such as Amsterdam. Many Indian restaurants are found in Amsterdam serving Indian cuisines that foreigners quite like due to their taste and authenticity, which makes them popular all over the world. Therefore, Indian food has evolved over the centuries. It is rich in culture and heritage. Whichever place you visit in India, there will be unique food with unique tastes, making it unique and special all over the world. So, it’s time to start exploring Amsterdam’s unique and scrumptious Indian cuisine as soon as you get a chance.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+   </section>
+   
+   
+   
+   <!-- menu section starts -->
+   <section class="menu" id="menu">
+    <h1 class="heading">Our<span >menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="1.webp" alt="">
+            <h3>Hamburger</h3>
+            <div class="price">$15.99<span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="2.jpg" alt="">
+            <h3>chicken leg piece</h3>
+            <div class="price">$20<span>25</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="3.jpg" alt="">
+            <h3>chicken leg piece with french fries</h3>
+            <div class="price">$17.80<span>27.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="4.jpg" alt="">
+            <h3>tasty and healthy Pizza</h3>
+            <div class="price">$14.99<span>18.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="5.jpg" alt="">
+            <h3>Delicious Pancake</h3>
+            <div class="price">$18<span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="6.jpg" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="price">$15.99<span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="7.jpg" alt="">
+            <h3>cupcake</h3>
+            <div class="price">$8.99<span>12.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="8.webp" alt="">
+            <h3>tasty nudles</h3>
+            <div class="price">$15.99<span>25.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="9.webp" alt="">
+            <h3>healthy Thali</h3>
+            <div class="price">$25.99<span>35.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+   </section>
+   <!-- Products section start -->
+   <section class="products" id="products">
+    <h1 class="heading">our <span>
+        Products
+    </span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart">
+
+                </a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="10.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>fresh Dosa</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99<span>$20.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart">
+
+                </a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="2.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>Leg piece</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$17.80<span>$27.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart">
+
+                </a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="3.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>leg piece and fries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$17.80<span>$27.99</span></div>
+            </div>
+        </div>
+    </div>
+   </section>
+   
+   
+   
+   
+   <!-- Contact section starts -->
+   <section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120000.31079227637!2d79.2755413!3d19.966093799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd2d5d164adc333%3A0x440ae57d85f01b55!2sChandrapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716573762691!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form action="">
+        <h3>Get in Touch</h3>
+        <div class="inputbox">
+            <span class="fas fa-user">
+
+            </span>
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="inputbox">
+            <span class="fas fa-envelope">
+
+            </span>
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputbox">
+            <span class="fas fa-phone">
+
+            </span>
+            <input type="number" placeholder="phone">
+        </div>
+        <input type="submit" value="contact now" class="btn">
+    </form>
+    </div>
+   </section>
+   
+   
+   
+   <!-- Review section start -->
+   <section class="review" id="review">
+    <h1 class="heading">Customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <!-- <img src="pin.png" alt="" class="quote"> -->
+            <p>Learn about the history, usage and variations of Lorem Ipsum, the industry's standard dummy text</p>
+            <img src="01.jpg" class="user" alt="">
+            <h3>John deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+        <div class="box">
+            <!-- <img src="01.jpg" alt="" class="quote"> -->
+            <p>Learn about the history, usage and variations of Lorem Ipsum, the industry's standard dummy text</p>
+            <img src="001.jpg" class="user" alt="">
+            <h3>mercy J</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+        <div class="box">
+            <!-- <img src="01.jpg" alt="" class="quote"> -->
+            <p>Learn about the history, usage and variations of Lorem Ipsum, the industry's standard dummy text</p>
+            <img src="002.jpg" class="user" alt="">
+            <h3>Romeo feu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+    </div>
+   </section>
+   <!-- blog section start -->
+   <section class="blogs" id="blogs">
+    <h1 class="heading">Our<span> blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="10.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty dosa</a>
+                <span> by admin /21 st may,2024</span>
+                <p>The dosa originated in South India, but its precise geographical origins are unknown. According to food historian K. T. Achaya, references in the Sangam literature suggest that dosa was already in use in the ancient Tamil country around the 1st century CE.[1] However, according to historian P. Thankappan Nair, dosa originated in the town of Udupi in present-day Karnataka.[2] Achaya states that the earliest written mention of dosa appears in the 8th-century literature of present-day Tamil Nadu, while the earliest mention of dosa in Kannada literature appears a century later.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="7.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty cupcake</a>
+                <span> by admin /25 th may,2024</span>
+                <p>A cupcake (AmE), fairy cake (BrE), or bun (IrE) is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, frosting and other cake decorations such as fruit and candy may be applied. </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="5.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty pancake</a>
+                <span> by admin /31 st may,2024</span>
+                <p>A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter, and then cooked on a hot surface such as a griddle or frying pan. It is a type of batter bread. Archaeological evidence suggests that pancakes were probably eaten in prehistoric societies.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+
+   </section>
+   
+   <!-- footer section starts -->
+   
+  <section class="footer"> 
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">contact</a>
+        <a href="#">review</a>
+        <a href="#">blogs</a>
+    </div>
+    <div class="credit">created by <span>mr. vikky chaple</span>| all rights reserved....</div>
+  </section>
+    <!-- custom script -->
+
+    <script src="script.js"></script>
+</body>
+</html>
